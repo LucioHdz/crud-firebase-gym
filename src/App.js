@@ -8,16 +8,16 @@ import Fila from "./components/Fila";
 
 
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDlIAt1BEyV1Pkt3iK85cAOVRF0qMwvOxE",
-  authDomain: "omar-4ad21.firebaseapp.com",
-  projectId: "omar-4ad21",
-  storageBucket: "omar-4ad21.appspot.com",
-  messagingSenderId: "93017264787",
-  appId: "1:93017264787:web:507d393cf9f974dbe17366",
-  measurementId: "G-5WXCKP02GN"
-};
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDe8WKDu5gV0Jn7e_ujIxlVEFP8mAi8sk0",
+  authDomain: "omar-90e4f.firebaseapp.com",
+  projectId: "omar-90e4f",
+  storageBucket: "omar-90e4f.appspot.com",
+  messagingSenderId: "1062183002149",
+  appId: "1:1062183002149:web:03a58b97c0f919c8bf9fcc",
+  measurementId: "G-S7NCWHMSLY"
+};
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
